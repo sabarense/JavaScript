@@ -1,2 +1,2 @@
-# Curso-JavaScript
+#JavaScript
 Introdução à Java Script
