@@ -5,3 +5,9 @@ for(let i = 0; i<10; i++){
         console.log(i + " " + "é um número ímpar");
     }
 }
+
+/*
+for(atribuição inicial; condição; passo){
+  instruções enquanto a condição for verdadeira
+}
+*/
