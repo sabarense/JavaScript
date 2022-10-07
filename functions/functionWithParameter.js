@@ -9,12 +9,6 @@ function soma(a,b){
 soma(3,4);
 
 /*
-function nome() {
-  instruções
-}
-*/
-
-/*
 function nome(parâmetros) {
     instruções
   }
