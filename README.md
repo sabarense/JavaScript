@@ -1,2 +1,2 @@
 # JavaScript
-Introdução à Java Script
+Repositório contendo informações acerca da introdução à JavaScript.
