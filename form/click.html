@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Imagens</title>
+    <meta charset="utf-8" />
+    <script>
+      let trataEvento = (evento) => {
+        console.log(`${evento.type} em ${evento.target.id}`);
+      };
+      window.onload = () => {
+        let lista = document.querySelectorAll('#imagens > img');
+        lista.forEach((i) =>  i.onclick = trataEvento);
+      };
+    </script>
+  </head>
+  <body>
+    <div id="imagens">
+      <img id="leoa" alt="Leoa" src="https://picsum.photos/id/1075/200" />
+      <img id="cachorro" alt="Cachorro" src="https://picsum.photos/id/237/200" />
+      <img id="urso" alt="Urso" src="https://picsum.photos/id/433/200" />
+    </div>
+  </body>
+</html>

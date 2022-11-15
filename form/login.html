@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Login</title>
+    <meta charset="utf-8" />
+    <script>
+      window.onload = () => {
+        login.onsubmit = () => {
+          console.log({ nome: nome.value, senha: senha.value });
+          return true;
+        };
+      };
+    </script>
+  </head>
+  <body>
+    <form id="login" method="post" action="https://postman-echo.com/post">
+      <p>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nnome" autocomplete="off" />
+      </p>
+      <p>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="nsenha" />
+      </p>
+      <p> 
+        <label for="conectado">Permanecer conectado?</label>
+        <input type="checkbox" id="conectado" name="nconectado" />
+      </p>
+       <p><button type="submit">Confirmar</button></p>
+    </form>
+  </body>
+</html>
