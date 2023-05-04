@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <script>
+        window.onload = () => {
+            bt.onclick = () => alert("Olá, mundo!");
+        }
+    </script>
+</head>
+<body>
+    <p>
+        <button id = "bt">Clique aqui</button>
+    </p>
+    
+</body>
+</html>
+
+<!--
+Quando o navegador abre uma página, ele cria, automaticamente, três objetos: 
+
+window - objeto que oferece acesso às informações e recursos da janela do navegador em que a página web está sendo apresentada;
+navigator - objeto que oferece acesso às informações e recursos do próprio navegador;
+document - objeto que oferece acesso às informações e recursos do da própria página, incluindo seu conteúdo e formatação.
+
+O objeto window nos permite obter informações sobre a janela, mas também nos deixa manipulá-la. Algumas dessas informações são:
+
+window.screen – Objeto com várias propriedades da tela
+window.history – Objeto com referências às últimas páginas acessadas
+window.location – Objetos com dados do URL da página
+
+O objeto window possui métodos para controle de janelas e seus frames. Alguns deles são:
+
+window.close() – Fecha uma janela (por quem a criou)
+window.focus() – Atribui o foco de interação à janela atual
+window.moveTo() e window.moveBy() – Movimentam a janela
+window.resizeTo() e window.resizeBy() – Redimensionam a janela
+window.open() e window.close() – Abre e fecha janelas
+
+O objeto window ainda possui métodos para interação com o usuário:
+
+window.alert() – Mostra uma janela modal com uma mensagem com botão OK
+window.confirm() – Mostra uma janela modal com botões OK e de cancelamento
+window.prompt() – Mostra uma janela modal com uma pergunta para o usuário
+window.print() – Abre a janela de impressão do documento
+window.setTimeout() – Executa uma função depois de um tempo pré-definido
+window.setInterval() – Executa uma função repetidas vezes em intervalos de tempo pré-definidos
+
+O objeto navigator nos ajuda a entender qual é o contexto de navegação do usuário. Por exemplo, podemos obter as seguintes informações:
+
+navigator.userAgent – Assinatura exclusiva do navegador
+navigator.language – Idioma padrão do navegador
+navigator.geolocation – Coordenadas geográficas do dispositivo
+navigator.online – Conectividade do dispositivo
+navigator.platform – Plataforma do usuário
+
+O objeto document nos permite obter informações sobre a página que está sendo apresentada no navegador. A lista dessas informações é bem extensa. Algumas delas são:
+
+document.documentURI – URL da página
+document.documentElement – Referência ao elemento <html> da página
+document.head e document.body – Referências ao cabeçalho e corpo da página
+document.links e document.images – Listas de links e de imagens da página
+
+-->
