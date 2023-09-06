@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('a').click(function(evento){
+                alert('o link foi clicado');
+                evento.preventDefault();
+            });
+
+
+        });
+    </script>
+</head>
+<body>
+    <p><a href="http://jquery.com">jQuery</a></p>
+</body>
+</html>

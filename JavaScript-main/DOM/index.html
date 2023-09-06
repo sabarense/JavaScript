@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <script>
+        window.onload = () => {
+            let intro = document.getElementById("introducao");
+            intro.style.textAlign = "center";
+            intro.style.fontWeight = "bold";
+            intro.style.border = "thin solid black";
+            intro.style.padding = "10 px 5px";
+            intro.style.backgroundColor = "#DDF";
+        }
+    </script>
+</head>
+<body>
+    <p id="introducao">
+        Bem-vindos ao curso de JavaScript.
+    </p>
+</body>
+</html>
+
+<!--
+
+O Document Object Model (DOM) é um objeto JavaScript que representa o documento. Ele é gerado a partir da combinação dos códigos fontes (HTML, CSS e JS), mas é a versão atual da página apresentada pelo navegador.
+
+Para selecionarmos um ou mais elementos, podemos usar os seguintes métodos:
+
+document.getElementById( 'id' ) — retorna um único elemento
+document.getElementsByTagName( 'tag' ) — retorna uma lista de elementos
+document.querySelector( 'seletor' ) — retorna um único (primeiro) elemento usando a seleção no formato da CSS
+document.querySelectorAll( 'seletor' ) — retorna uma lista de elementos
+
+-->
